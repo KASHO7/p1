@@ -7,13 +7,14 @@ p {
     font-family: Tahoma;
     font-size: 40px;
     width: 100px;
-    height: 150px;
+    height: 140px;
+    padding-top: 10px;
+    padding-left: 10px;
     margin: 0 auto;
+    margin-left: 10px;
     border-left: 10px dotted #D0D0FF;
     background: #eeeff2;
-    padding-left: 10px;
     cursor: pointer;
-    margin-left: 10px;
 }
 
 p:hover {
