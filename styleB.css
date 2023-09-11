@@ -1,6 +1,29 @@
-*{
-    background-color: beige;
+.container {
+    width: 700px;
 }
-body{
-    width: 600px;
+
+p {
+    display: inline-block;
+    font-family: Tahoma;
+    font-size: 40px;
+    width: 100px;
+    height: 150px;
+    margin: 0 auto;
+    border-left: 10px dotted #D0D0FF;
+    background: #eeeff2;
+    padding-left: 10px;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+p:hover {
+    color: goldenrod;
+    background: yellow;
+}
+
+.container .BoxF {
+    bottom: 0px;
+    right: 0px;
+    position: absolute;
+
 }
